@@ -1,97 +1,19 @@
 
-name: Build Au1rxx Hysteria2 subscription
-
-on:
-  workflow_dispatch:
-    inputs:
-      block:
-        description: "Выбери блок серверов"
-        required: true
-        type: choice
-        default: "1"
-        options:
-          - "1"
-          - "2"
-          - "3"
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Download and select servers
-        env:
-          BLOCK: ${{ inputs.block }}
+      - name: Verify generated subscription
         run: |
           python3 - <<'PY'
           import base64
-          import os
-          import urllib.request
           from pathlib import Path
 
-          url = "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/refs/heads/main/output/protocol/hysteria2/v2ray-base64-0001.txt"
-          block = int(os.environ["BLOCK"])
-
-          request = urllib.request.Request(
-              url, headers={"User-Agent": "Mozilla/5.0"}
-          )
-          with urllib.request.urlopen(request, timeout=60) as response:
-              raw = response.read()
-
-          text = raw.decode("utf-8-sig").strip()
-          compact = "".join(text.split())
-
-          try:
-              decoded = base64.b64decode(
-                  compact + "=" * (-len(compact) % 4),
-                  validate=True
-              ).decode("utf-8-sig")
-              if "://" in decoded:
-                  text = decoded
-          except (ValueError, UnicodeDecodeError):
-              pass
-
+          p = Path("subscription.txt")
+          data = p.read_text().strip()
+          decoded = base64.b64decode(data).decode("utf-8")
           servers = [
-              line.strip()
-              for line in text.splitlines()
-              if line.strip().lower().startswith(
-                  ("hy2://", "hysteria2://")
-              )
+              line for line in decoded.splitlines()
+              if line.startswith(("hy2://", "hysteria2://"))
           ]
 
-          start = (block - 1) * 100
-          selected = servers[start:start + 100]
-
-          if not selected:
-              raise SystemExit(
-                  f"Не найден блок {block}. Всего серверов: {len(servers)}"
-              )
-
-          result = base64.b64encode(
-              ("\n".join(selected) + "\n").encode("utf-8")
-          ).decode("ascii") + "\n"
-
-          Path("subscription.txt").write_text(result, encoding="ascii")
-
-          print(f"Всего серверов: {len(servers)}")
-          print(f"Блок: {block}")
-          print(f"Выбрано: {len(selected)}")
+          print("Размер файла:", p.stat().st_size, "байт")
+          print("Серверов в итоговом файле:", len(servers))
+          print("Первый протокол:", servers[0].split("://")[0] if servers else "нет")
           PY
-
-      - name: Commit generated subscription
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add au1rxx.txt
-          if ! git diff --cached --quiet; then
-            git commit -m "Update Hysteria2 subscription"
-            git push
-          else
-            echo "Подписка не изменилась"
-          fi
