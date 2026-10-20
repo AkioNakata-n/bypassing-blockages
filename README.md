@@ -1,7 +1,11 @@
 > **Language:** [Русский](README.md) · [English](README.en.md)
 
-#  Aki0 - Автоматически обновляемые VPN-конфиги на основне rjsxrd, llimonix и WARP Generator
-
+#  Aki0 - Автоматически обновляемые VPN-конфиги на основне rjsxrd, llimonix и WARP Generator 
+[![GitHub Stars](https://img.shields.io/github/stars/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
+[![Issues](https://img.shields.io/github/issues/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/issues)
+##
 ## rjsxrd:
 
 tgc: [t.me/rjsxrd](https://t.me/rjsxrd)
