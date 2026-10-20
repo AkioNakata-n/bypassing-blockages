@@ -1,4 +1,4 @@
-> **Language:** [Русский](README.ru.md) · [English](README.en.md)
+> **Language:** [Русский](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/README/README.ru.md) · [English](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/README/README.en.md)
 
 #  Aki0 - Автоматически обновляемые VPN-конфиги на основне rjsxrd, llimonix и WARP Generator 
 [![GitHub Stars](https://img.shields.io/github/stars/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/stargazers)
