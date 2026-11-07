@@ -1,4 +1,4 @@
-**Language:** [Русский](README/README.ru.md) · [English](README/README.en.md)
+**Language:** [Русский](About/README.ru.md) · [English](About/README.en.md)
 
 #  Automatically updated VPN configs
 [![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square&color=green)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
@@ -41,7 +41,7 @@ README.md
 
 ### 📦 Subscriptions
 
-[![](https://img.shields.io/badge/About%20subcscriptions-lightgrey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md)
+[![](https://img.shields.io/badge/About%20subcscriptions-lightgrey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About/Subscriptions.md)
 
 **[🕊️ Aki0](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-main.txt)**
   **[🕊️ Aki0 | reserve](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-reserve.txt)**
