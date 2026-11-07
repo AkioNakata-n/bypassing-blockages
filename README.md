@@ -4,7 +4,8 @@
 [![GitHub Stars](https://img.shields.io/github/stars/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
-[![Issues](https://img.shields.io/github/issues/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/issues)
+
+[![Status](https://img.shields.io/badge/About%20subcscriptions-click%20here-lightgrey?style=for-the-badge)]((https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md))
 ##
 
 ### Disclaimer
