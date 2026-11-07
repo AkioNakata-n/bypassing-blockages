@@ -20,6 +20,17 @@
 > *Use VPN only for lawful purposes: in particular, to ensure your security online and secure remote access, and in no case use this technology to bypass blocks.*
 
 ---
+
+### About my subscriptions
+
+---
+
+### My subscriptions:
+
+**[🕊️ Aki0](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-main.txt)**
+  **[🕊️ Aki0 | reserve](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-reserve.txt)**
+
+---
 ### Repository structure
 ```text
 .github/
@@ -38,15 +49,4 @@ subscriptions/
 README.en.md
 README.md
 ```
----
-
-### About my subscriptions
-
----
-
-### My subscriptions:
-
-**[🕊️ Aki0](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-main.txt)**
-  **[🕊️ Aki0 | reserve](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-reserve.txt)**
-
 ---
