@@ -5,7 +5,6 @@
 [![GitHub Forks](https://img.shields.io/github/forks/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
 
-[![Status](https://img.shields.io/badge/About%20subcscriptions-grey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md)
 ##
 
 ### Disclaimer
@@ -40,13 +39,10 @@ subscriptions/
 README.en.md
 README.md
 ```
----
-
-### About my subscriptions
-
----
 
 ### My subscriptions:
+
+[![Status](https://img.shields.io/badge/About%20subcscriptions-grey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md)
 
 **[🕊️ Aki0](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-main.txt)**
   **[🕊️ Aki0 | reserve](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-reserve.txt)**
