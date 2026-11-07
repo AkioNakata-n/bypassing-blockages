@@ -1,10 +1,9 @@
 **Language:** [Русский](README/README.ru.md) · [English](README/README.en.md)
 
-#  Aki0 - Automatically updated VPN configs based on rjsxrd, llimonix and WARP Generator
-[![GitHub Stars](https://img.shields.io/github/stars/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
-
+#  Automatically updated VPN configs
+[![Last Commit](https://img.shields.io/github/last-commit/AkioNakata-n/bypassing-blockages?style=flat-square&color=green)](https://github.com/AkioNakata-n/bypassing-blockages/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/AkioNakata-n/bypassing-blockages?style=flat-square&color=yellow)](https://github.com/AkioNakata-n/bypassing-blockages/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/AkioNakata-n/bypassing-blockages?style=flat-square&color=blue)](https://github.com/AkioNakata-n/bypassing-blockages/network/members)
 ##
 
 ### Disclaimer
@@ -40,9 +39,9 @@ README.en.md
 README.md
 ```
 
-### My subscriptions:
+### 📦 Subscriptions
 
-[![Status](https://img.shields.io/badge/About%20subcscriptions-grey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md)
+[![](https://img.shields.io/badge/About%20subcscriptions-lightgrey?style=flat-square)](https://github.com/AkioNakata-n/bypassing-blockages/blob/main/About.md)
 
 **[🕊️ Aki0](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-main.txt)**
   **[🕊️ Aki0 | reserve](https://raw.githubusercontent.com/AkioNakata-n/bypassing-blockages/refs/heads/main/subscriptions/rjsxrd/rjsxrd-filter-reserve.txt)**
